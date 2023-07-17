@@ -1,0 +1,26 @@
+{
+  "name": "fintecos-material-backend",
+  "version": "1.0.0",
+  "description": "fintechos material backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Iulian Musat",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
+    "router": "^1.3.8",
+    "uuidv4": "^6.2.13"
+  }
+}
